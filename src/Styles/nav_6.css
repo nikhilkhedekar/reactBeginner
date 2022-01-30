@@ -1,0 +1,5 @@
+nav-bar>ul>li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}

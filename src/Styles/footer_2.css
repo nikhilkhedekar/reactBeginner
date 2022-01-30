@@ -1,0 +1,19 @@
+/**/
+
+.footer-body ::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer-body>div {
+    float: left;
+}
+
+.footer-body>div :first-child {
+    width: 35%;
+}
+
+.footer-body>div :last-child {
+    width: 65%;
+}

@@ -1,0 +1,36 @@
+.dd {
+    position: relative;
+    display: inline-block;
+}
+
+.dd-btn {
+    padding: 15px;
+    text-align: center;
+    background-color: #173459;
+    border: none;
+    width: 300px;
+    color: #f8f9f9;
+}
+
+.dd-content {
+    position: absolute;
+    display: none;
+    width: 100%;
+    box-Shadow: 0 18px 36px rgba(0, 0, 0, 0.30), 0 14px 11px rgba(0, 0, 0, 0.22);
+}
+
+.dd :hover>.dd-content {
+    display: block;
+}
+
+.dd-content>a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.dd-content>a :hover {
+    color: white;
+    background-color: #2a5997;
+}

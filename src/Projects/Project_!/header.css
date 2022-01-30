@@ -1,0 +1,20 @@
+.header {
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.btn-header {
+    float: right;
+    border-radius: 10px;
+    width: 5%;
+    padding: 10px;
+    margin: auto;
+    color: black;
+    background: lightblue;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}

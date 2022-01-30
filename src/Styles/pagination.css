@@ -1,0 +1,29 @@
+.pagination {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.pagination li {
+    display: inline;
+}
+
+.pagination li :last-child>a {
+    border: none;
+}
+
+.pagination a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 7px 14px;
+    clear: left;
+    transition-duration: 2s;
+}
+
+.pagination a :hover {
+    background-color: blueviolet;
+    color: white;
+}

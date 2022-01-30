@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+.form-container {
+    margin: 200px;
+    padding: 15px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.20);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px, 0 rgba(0, 0, 0, 0.20);
+}
+
+.input-cnt {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.input-cnt :last-child {
+    margin-bottom: 0;
+}
+
+.input-cnt>i {
+    min-width: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: lightsalmon;
+}
+
+.input-cnt :hover>i {
+    background-color: darksalmon;
+    color: rgba(0, 0, 0, 0.20);
+}
+
+.input-cnt>input [type='text'],
+.input-cnt>textarea {
+    outline: none;
+    padding: 10px;
+    border: 1px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+
+.textarea-icon {
+    padding: 60px 10px impo !important;
+}
+
+.input-cnt>input [type='submit'] {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 105%;
+    padding: 8px;
+    color: black;
+    background-color: lightcoral;
+    transition-duration: .5s;
+}
+
+.input-cnt>input [type='submit'] :hover {
+    color: black;
+    background-color: coral;
+}
+
+
+/* with border
+
+.input {
+    outline: none;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: blueviolet;
+    color: white;
+}*/
+
+
+/*without border
+
+.input {
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: blueviolet;
+    color: white;
+}
+
+.input ::placeholder {
+    color: black;
+}
+
+.input {
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: blueviolet;
+    color: white;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px, 0 rgba(0, 0, 0, 0.20);
+}
+
+.input ::placeholder {
+    color: black;
+}*/

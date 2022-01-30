@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    margin: 0 auto;
+    width: 30%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.30), 0 11px 8px rgba(0, 0, 0, 0.22);
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.image-description {
+    padding: 0 15px 15px 15px;
+    text-align: center
+}

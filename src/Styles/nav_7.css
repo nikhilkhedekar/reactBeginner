@@ -1,0 +1,7 @@
+.nav-bar li {
+    border-right: 1px solid violet;
+}
+
+.nav-bar li :last-child {
+    border: none;
+}
